@@ -13,12 +13,12 @@ public class NormaldemoTest
 	@Test
 	public void launchapp() 
 	{
-      System.setProperty("webdriver.chrome.driver","C:\\Selenium Setupfiles\\chromedriver.exe");
-      driver=new ChromeDriver();
-     driver.get("http://elearning.hommelle.com/");
-     String actual = driver.getTitle();
-     String Expected ="eLearning - eLearning";
-     assertEquals(actual, Expected);
+		System.setProperty("webdriver.chrome.driver","C:\\Selenium Setupfiles\\chromedriver.exe");
+		driver=new ChromeDriver();
+		driver.get("http://elearning.hommelle.com/");
+		String actual = driver.getTitle();
+		String Expected ="eLearning - eLearning";
+		assertEquals(actual, Expected);
 	}
-	
+
 }
