@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40082" started-at="2019-01-04T06:38:46Z" finished-at="2019-01-04T06:39:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40082" started-at="2019-01-04T06:38:46Z" finished-at="2019-01-04T06:39:26Z">
+      <class name="com.ibm.jerkins.com.ibm.jerkins.NormaldemoTest">
+        <test-method status="PASS" signature="launchapp()[pri:0, instance:com.ibm.jerkins.com.ibm.jerkins.NormaldemoTest@7823a2f9]" name="launchapp" duration-ms="40058" started-at="2019-01-04T12:08:46Z" finished-at="2019-01-04T12:09:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+      </class> <!-- com.ibm.jerkins.com.ibm.jerkins.NormaldemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
